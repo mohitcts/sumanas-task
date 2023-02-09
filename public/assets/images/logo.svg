@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="918" height="220.708" viewBox="0 0 918 220.708">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2f89fb"/>
+      <stop offset="1" stop-color="#017cbe"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_2" data-name="Group 2" transform="translate(-85.819 -226.036)">
+    <g id="Ellipse_3" data-name="Ellipse 3" transform="translate(85.819 226.035)" fill="#fff" stroke="#ffa200" stroke-width="3">
+      <ellipse cx="100.5" cy="101" rx="100.5" ry="101" stroke="none"/>
+      <ellipse cx="100.5" cy="101" rx="99" ry="99.5" fill="none"/>
+    </g>
+    <path id="Path_6" data-name="Path 6" d="M946.2,375.42s-64.3,78.368,4.019,179.343c-.5-1-6.029,3.014-6.029,3.014s-30.141-21.1-44.709-57.771c0-1-4.206,14.471-25.807,31.552-1,1-7.476-2.275-7.476-2.275S904,475.892,848.236,413.1c-.5,0,2.511-5.023,2.511-5.023s26.123,12.056,41.7,43.7c1,1,9.043-56.264,48.729-80.88C942.177,369.894,946.2,375.42,946.2,375.42Z" transform="translate(-713.98 -111.033)" fill="url(#linear-gradient)"/>
+    <ellipse id="Ellipse_2" data-name="Ellipse 2" cx="20.5" cy="22.5" rx="20.5" ry="22.5" transform="translate(147.819 262.035)" fill="url(#linear-gradient)"/>
+    <text id="Healthcare_Staffing" data-name="Healthcare Staffing" transform="translate(318.819 351.035)" fill="#1480dd" font-size="71" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Healthcare Staffing</tspan></text>
+  </g>
+</svg>

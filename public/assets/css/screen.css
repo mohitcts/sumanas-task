@@ -1,0 +1,732 @@
+@media only screen and (max-width: 1500px) {
+    .WebTitle {
+        left: -181px;
+        font-size: 45px;
+    }
+}
+
+
+/* @media only screen and (min-width: 1201px) {
+    .container {
+        max-width: 90%;
+    }
+} */
+
+@media only screen and (max-width: 1200px) {
+    .BannerContent .LeftTxtBox {
+        width: 90%;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 29px 10px;
+    }
+    .btn-group .btn {
+        width: auto;
+        padding: 10px 12px;
+        font-size: 12px;
+    }
+    .TrendingProducts h3,
+    .DiscoverWrapper h3 {
+        font-size: 30px;
+    }
+    .WebTitle {
+        left: -118px;
+        font-size: 27px;
+    }
+    .TrendingProdBox h4 {
+        font-size: 18px;
+    }
+    .PassionLeftBox h3 {
+        font-size: 33px;
+    }
+    .header-area .main-nav .nav li {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .header-area .main-nav:before {
+        display: none;
+    }
+    .BannerRight {
+        padding: 0px 5%;
+    }
+    .BannerRight h6 {
+        font-size: 20px;
+    }
+    .BannerLeft img,
+    /* .BannerRight{min-height:60vh;max-height:60vh;} */
+    .BannerRight h2 {
+        font-size: 50px;
+    }
+    .DiscoverList h5 {
+        font-size: 18px;
+    }
+    .PassionTxtBox {
+        padding-right: 6%;
+        width: 60%;
+    }
+    .PassionLeft {
+        padding-left: 11%;
+        padding-right: 7%;
+    }
+}
+
+@media all and (min-width: 992px) {
+    .left-bar-box {
+        display: none !important;
+    }
+    /* .navbar-expand-lg .navbar-nav{padding-top:35px;} */
+    .navbar {
+        padding: 0
+    }
+    .navbar .has-megamenu {
+        position: static !important;
+    }
+    .navbar .megamenu {
+        left: 0;
+        right: 0;
+        width: 100%;
+        padding: 20px;
+    }
+    .navbar .nav-item .dropdown-menu {
+        display: block;
+        opacity: 0;
+        visibility: hidden;
+        transition: .3s;
+        margin-top: 0;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        display: block;
+        font-weight: 400;
+        font-size: 16px;
+        color: #232323;
+        -webkit-transition: all 0.3s ease 0s;
+        -moz-transition: all 0.3s ease 0s;
+        -o-transition: all 0.3s ease 0s;
+        transition: all 0.3s ease 0s;
+        height: 80px;
+        border: transparent;
+        padding: 29px 15px;
+        border: transparent;
+        /* padding:0 20px;	 */
+    }
+    .navbar .nav-item.active .nav-link,
+    .navbar .nav-item:hover .nav-link {
+        color: #082564;
+    }
+    .navbar .dropdown-menu.fade-down {
+        top: 80%;
+        transform: rotateX(-75deg);
+        transform-origin: 0% 0%;
+    }
+    .navbar .dropdown-menu.fade-up {
+        top: 180%;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15) !important;
+    }
+    .navbar .nav-item:hover .dropdown-menu {
+        border: none;
+        border-top: 1px solid rgb(13 33 73 / 8%);
+        border-radius: 0;
+        transition: .3s;
+        opacity: 1;
+        visibility: visible;
+        top: 99%;
+        transform: rotateX(0deg);
+    }
+    /* ============ desktop view .end// ============ */
+    .dropdown-toggle::after {
+        font-family: FontAwesome;
+        content: "\f107";
+        font-size: 18px;
+        /* color: #232323; */
+        display: inline-block;
+        vertical-align: middle;
+        border: none;
+        /* position: absolute; */
+        /* right: 18px;
+  top: 8px; */
+    }
+    .header-area .main-nav .nav {
+        display: flex !important;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .search-wrapper .btn {
+        min-width: auto;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .single-team {
+        flex-flow: wrap;
+    }
+    .list-inner .image {
+        width: 80%;
+    }
+    .header-area.header-sticky {
+        min-height: auto;
+    }
+    .left-bar-box a {
+        margin-right: 10px;
+        align-items: center;
+        display: flex;
+    }
+    .section-head h2 {
+        font-size: 28px;
+    }
+    .BannerContainer {
+        height: 456px;
+    }
+    .BannerContainer video {
+        height: 100%;
+        width: auto;
+    }
+    .innercounter .count-item {
+        font-size: 35px;
+    }
+    .innercounter figcaption p {
+        font-weight: normal;
+    }
+    .list-wrapper .img-txt h3 {
+        font-size: 20px;
+    }
+    .w50 {
+        width: 70%;
+    }
+    .slider-img-content figure img {
+        width: 60px !important;
+        margin: 0 auto;
+    }
+    .slider-img-content p {
+        font-size: 22px;
+    }
+    .navbar-light .navbar-toggler {
+        margin-right: 0px;
+        border: none;
+        padding: 0;
+        color: #000;
+        background: #fff;
+        padding: 7px;
+    }
+    .BannerContent .LeftTxtBox {
+        width: 100%
+    }
+    .LeftTxtBox h2 {
+        font-size: 35px;
+    }
+    /* body.fixed-body{
+    position: fixed;
+  } */
+    .dropdown-toggle::after {
+        float: right;
+        margin-top: 10px;
+    }
+    .navbar-collapse {
+        position: fixed !important;
+        top: 0px !important;
+        right: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        width: 100% !important;
+        background: #1d84e3!important;
+        height: 100%;
+        overflow: auto;
+    }
+    .navbar-nav .dropdown-menu {
+        margin-top: 0
+    }
+    .header-area.header-sticky.background-header .navbar-collapse {
+        top: 0px !important;
+    }
+    .close {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        width: 32px;
+        height: 32px;
+        cursor: pointer;
+        opacity: 1;
+    }
+    .close:hover {
+        opacity: 1;
+    }
+    .close:before,
+    .close:after {
+        position: absolute;
+        left: 15px;
+        content: ' ';
+        height: 33px;
+        width: 2px;
+        background-color: rgb(255, 255, 255);
+    }
+    .close:before {
+        transform: rotate(45deg);
+    }
+    .close:after {
+        transform: rotate(-45deg);
+    }
+    .menu-cross {
+        display: inline-block;
+        height: 50px;
+        width: 100%;
+    }
+    .dropdown-menu {
+        padding: 10px;
+        color: #fff;
+        text-align: left;
+        list-style: none;
+        background-color: #0f0f0f;
+    }
+    .navbar-light .navbar-nav .nav-link,
+    .navbar-light .navbar-nav .active>.nav-link,
+    .navbar-light .navbar-nav .nav-link.active,
+    .navbar-light .navbar-nav .nav-link.show,
+    .navbar-light .navbar-nav .show>.nav-link,
+    .navbar-light .navbar-nav .nav-link:focus,
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: #fff;
+        padding: 10px 0;
+        border-bottom: 1px solid rgb(255 255 255 / 22%);
+    }
+    .navbar-collapse.collapsing {
+        right: -75%;
+        transition: height 0s ease;
+    }
+    .navbar-collapse.show {
+        right: 0;
+        transition: right 300ms ease-in-out;
+    }
+    .navbar-toggler.collapsed~.navbar-collapse {
+        transition: right 500ms ease-in-out;
+    }
+    .search-input {
+        padding: 2px 0;
+    }
+    button.cross-btn {
+        width: 35px;
+        height: 35px;
+        color: #ccc;
+        font-size: 18px;
+        border: none;
+        margin-right: 15px;
+    }
+    .HeaderTop {
+        border-bottom: 1px solid #eee;
+        padding: 10px 0 5px;
+    }
+    .HeaderTop p {
+        color: #6f6f6f;
+    }
+    html,
+    body {
+        overflow-x: hidden;
+    }
+    .mobile-top-fix {
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+    .mobile-bottom-fix {
+        margin-bottom: 30px;
+    }
+    .mobile-bottom-fix-big {
+        margin-bottom: 60px;
+    }
+    .header-area {
+        padding: 0px 15px;
+        box-shadow: none;
+    }
+    .header-area .container {
+        padding: 0px;
+    }
+    .header-area .menu-trigger {
+        display: block !important;
+    }
+    .header-area .main-nav .nav {
+        width: 100%;
+        margin-top: 15px;
+        display: none;
+        -webkit-transition: all 0s ease 0s;
+        -moz-transition: all 0s ease 0s;
+        -o-transition: all 0s ease 0s;
+        transition: all 0s ease 0s;
+        margin-left: 0px;
+    }
+    .header-area .main-nav .nav li:first-child {
+        border-top: 1px solid #eee;
+    }
+    .header-area .main-nav .nav li {
+        width: 100%;
+        background: #fff;
+        border-bottom: 1px solid #eee;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .header-area .main-nav .nav li a {
+        height: 50px !important;
+        line-height: 50px !important;
+        padding: 0px !important;
+        border: none !important;
+        background: #fff !important;
+        color: #3b566e !important;
+    }
+    .header-area .main-nav .nav li a:hover {
+        background: #eee !important;
+    }
+    .header-area .main-nav .nav>li>a:hover,
+    .header-area .main-nav .nav .submenu>ul>li>a:hover {
+        color: #FFA200;
+    }
+    .header-area .main-nav .nav li.submenu ul {
+        position: relative;
+        visibility: inherit;
+        opacity: 1;
+        z-index: 1;
+        transform: translateY(0%);
+        transition-delay: 0s, 0s, 0.3s;
+        top: 0px;
+        width: 100%;
+        box-shadow: none;
+        height: 0px;
+    }
+    .header-area .main-nav .nav li.submenu ul li a:hover:before {
+        width: 0px;
+    }
+    .header-area .main-nav .nav li.submenu ul.active {
+        height: auto !important;
+    }
+    .header-area .main-nav .nav li.submenu:after {
+        color: #3b566e;
+        right: 25px;
+        font-size: 14px;
+        top: 15px;
+    }
+    .header-area .main-nav .nav li.submenu:hover ul,
+    .header-area .main-nav .nav li.submenu:focus ul {
+        height: 0px;
+    }
+    .BannerLeft img,
+    /* .BannerRight{min-height:50vh;max-height:50vh;} */
+    .BannerRight h2 {
+        font-size: 40px;
+    }
+    /* .HomeSlider ol.carousel-indicators{top:35%;} */
+    .AbPic img {
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .AboutColleBox {
+        height: auto;
+        justify-content: center;
+        margin-top: -95px;
+        width: 90%;
+        margin: -95px auto 0;
+    }
+    .TrendingProdBox {
+        margin-bottom: 30px;
+    }
+    .DreamPassion {
+        max-height: 100%;
+    }
+    .AbfTxt h3,
+    .AboutColleTxt h3,
+    .PassionLeftBox h3,
+    .TrendingProducts h3,
+    .DiscoverWrapper h3 {
+        font-size: 30px;
+    }
+    .social.float-right {
+        float: left !important;
+        margin-top: 10px;
+    }
+    .SearchBtn img {
+        /* margin-top: -30px; */
+        margin-right: 10px;
+    }
+    #about {
+        padding: 40px 0;
+    }
+    .AbfBox {
+        height: auto;
+    }
+    .BannerRight h2 {
+        font-size: 35px;
+        margin-bottom: 35px;
+    }
+    .BannerRight h6 {
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+    .BannerRight a {
+        font-size: 16px;
+        background: #fff;
+        font-weight: 400;
+        padding: 10px 18px;
+    }
+    .PassionLeftBox {
+        padding: 4% 0;
+    }
+    #main_nav {
+        position: absolute;
+        top: 90px;
+        width: 100%;
+        z-index: 999;
+        padding: 0 20px;
+        background: #fff;
+    }
+    .navbar-light .navbar-toggler {
+        margin-right: 30px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .single-team figure,
+    .single-team figcaption {
+        width: 100%;
+        padding-left: 0;
+    }
+    .single-team figcaption {
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .about-content {
+        margin-top: 20px;
+    }
+    .navigation.paging-navigation {
+        margin-bottom: 30px;
+        width: 100%;
+        display: inline-block;
+    }
+    .contact-sidebar {
+        padding-left: 0;
+    }
+    .list-detail .image img {
+        height: 250px;
+    }
+    .innercounter {
+        height: auto;
+        margin-bottom: 30px;
+    }
+    .AbfTxt {
+        padding-right: 0;
+    }
+    .AbfTxt h5 {
+        margin-bottom: 5px;
+    }
+    .PassionLeftBox h3,
+    .AbfTxt h3,
+    .AboutColleTxt h3 {
+        margin-bottom: 20px;
+    }
+    footer h3 {
+        margin-top: 30px;
+    }
+    .BannerRight h6 {
+        display: inline-block;
+        color: #082564;
+        border-color: #082564;
+    }
+    .BannerRight h2 {
+        color: #082564;
+    }
+    .HomeSlider ol.carousel-indicators {
+        display: none;
+    }
+    .mobile-banner {
+        display: block
+    }
+    .desktop-banner {
+        display: none
+    }
+    .BannerRight {
+        background: none;
+        margin-top: -300px;
+        float: right;
+        padding: 0;
+        width: 100%;
+        display: inline-block;
+    }
+    .RightTxtBox {
+        float: right;
+        width: 60%;
+    }
+    .BannerLeft img,
+    .BannerRight {
+        min-height: auto;
+        max-height: auto;
+    }
+    .HomeSlider .carousel-inner {
+        position: relative;
+    }
+    .HomeSlider .carousel-inner:before {
+        position: absolute;
+        left: 0;
+        top: 0;
+        background: rgba(0, 0, 0, 0.4);
+        width: 100%;
+        height: 100%;
+        content: '';
+    }
+    .HomeSlider .carousel-indicators {
+        z-index: 9999
+    }
+    .PassionLeft,
+    .PassionTxtBox {
+        width: 50%;
+    }
+    .PassionLeft img {
+        width: 100%;
+    }
+    .TrendingProducts {
+        padding: 30px 0;
+    }
+    .LatestProd li img {
+        height: 100px;
+    }
+}
+
+@media only screen and (max-width: 757px) {
+    .DiscoverList .ThumbBox {
+        height: 250px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .BannerRight h6 {
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+    .AbfTxt h5 {
+        font-size: 14px;
+    }
+    .AbfTxt p a {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    .BannerRight {
+        background: none;
+        margin-top: -250px;
+        float: right;
+        padding: 0;
+        width: 100%;
+        display: inline-block;
+    }
+    .RightTxtBox {
+        float: right;
+        width: 60%;
+    }
+}
+
+
+/* @media only screen and  (max-width: 640px) {
+
+} */
+
+@media only screen and (max-width: 480px) {
+    .single-team figure,
+    .single-team figcaption {
+        width: 100%;
+        padding-left: 0;
+    }
+    .single-team figcaption {
+        margin-top: 10px;
+    }
+    .LeftTxtBox h2 {
+        font-size: 24px;
+    }
+    .p50 {
+        padding: 30px 0;
+    }
+    .BannerContainer {
+        height: 350px;
+    }
+    .seach-job-container h2,
+    .section-head h2 {
+        font-size: 24px;
+    }
+    .w50 {
+        width: 100%
+    }
+    .BannerRight h6 {
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+    .BannerRight {
+        width: 100%;
+        margin-top: -175px;
+    }
+    .RightTxtBox {
+        float: right;
+        width: 60%;
+        margin-right: 15px
+    }
+    .BannerRight h2 {
+        margin-bottom: 20px;
+        font-size: 25px;
+    }
+    .PassionLeft {
+        width: 81%;
+        margin-left: 0;
+        margin: 0 auto;
+    }
+    .PassionTxtBox {
+        width: 80%;
+        margin: 20px 0 0 80px;
+    }
+    .PassionLeftBox {
+        display: block;
+        height: auto;
+    }
+    .WebTitle {
+        bottom: 45%;
+    }
+    /* .BannerRight h6{font-size: 12px;} */
+    .BannerRight a {
+        padding: 6px 10px;
+        font-size: 10px;
+    }
+    .PassionLeftBox p,
+    .AboutColleTxt p {
+        font-size: 14px
+    }
+    .TrendingProdBox h4 {
+        font-size: 15px;
+    }
+    .TrendingProdBox p {
+        font-size: 14px;
+    }
+    .AbfTxt h3,
+    .AboutColleTxt h3,
+    .PassionLeftBox h3,
+    .TrendingProducts h3,
+    .DiscoverWrapper h3 {
+        font-size: 20px;
+    }
+    .navbar-brand img {
+        width: 150px;
+    }
+    .navbar-light .navbar-toggler {
+        margin-right: 0px;
+        border: none;
+        padding: 0;
+        color: #000;
+    }
+    .SearchBtn img {
+        margin-right: 0;
+    }
+    button.SearchBtn {
+        padding: 0;
+    }
+    .TrendingProducts h3,
+    .DiscoverWrapper h3 {
+        margin-bottom: 20px;
+    }
+    .PassionLeftBox p {
+        margin-bottom: 15px;
+        line-height: 25px;
+    }
+    .ThumBox {
+        height: 200px;
+    }
+}
